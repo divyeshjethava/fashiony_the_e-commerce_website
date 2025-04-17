@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/fashiony_the_e-commerce_website/static/css/main.245c0625.css",
+    "main.js": "/fashiony_the_e-commerce_website/static/js/main.290e48f8.js",
+    "static/js/453.16ae897f.chunk.js": "/fashiony_the_e-commerce_website/static/js/453.16ae897f.chunk.js",
+    "static/media/size-chart.png": "/fashiony_the_e-commerce_website/static/media/size-chart.bfd567e59c69e47f2403.png",
+    "static/media/outwear.jpg": "/fashiony_the_e-commerce_website/static/media/outwear.7fab0243b2584ba3b0ca.jpg",
+    "static/media/fa-solid-900.ttf": "/fashiony_the_e-commerce_website/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/fa-brands-400.ttf": "/fashiony_the_e-commerce_website/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/fashiony_the_e-commerce_website/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/fa-brands-400.woff2": "/fashiony_the_e-commerce_website/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/slid2.jpg": "/fashiony_the_e-commerce_website/static/media/slid2.e0f77285b4fba8ac3e29.jpg",
+    "static/media/slide6.jpg": "/fashiony_the_e-commerce_website/static/media/slide6.bb67e72f1163353a00e4.jpg",
+    "static/media/slide3.jpg": "/fashiony_the_e-commerce_website/static/media/slide3.446cbdd5b67cf6dfdb55.jpg",
+    "static/media/slid1.jpg": "/fashiony_the_e-commerce_website/static/media/slid1.5a9017f0c098fdad8829.jpg",
+    "static/media/slid5.jpg": "/fashiony_the_e-commerce_website/static/media/slid5.90e9623a16d65e0b2739.jpg",
+    "static/media/slid4.jpg": "/fashiony_the_e-commerce_website/static/media/slid4.b0b5c7de359ae5df3cb1.jpg",
+    "static/media/fa-regular-400.ttf": "/fashiony_the_e-commerce_website/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/offer3.jpg": "/fashiony_the_e-commerce_website/static/media/offer3.cd9ae1fda8ddfb345285.jpg",
+    "static/media/accesories.webp": "/fashiony_the_e-commerce_website/static/media/accesories.a58cfa798b94bacfd6fe.webp",
+    "static/media/fa-regular-400.woff2": "/fashiony_the_e-commerce_website/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/mastercard.jpg": "/fashiony_the_e-commerce_website/static/media/mastercard.d8bc7b15dd73862a06eb.jpg",
+    "static/media/fa-v4compatibility.ttf": "/fashiony_the_e-commerce_website/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/dresses.webp": "/fashiony_the_e-commerce_website/static/media/dresses.9aa846aee00caf8bfd65.webp",
+    "static/media/fa-v4compatibility.woff2": "/fashiony_the_e-commerce_website/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "static/media/slick.svg": "/fashiony_the_e-commerce_website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/fashiony_the_e-commerce_website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/fashiony_the_e-commerce_website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/fashiony_the_e-commerce_website/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/fashiony_the_e-commerce_website/index.html",
+    "static/media/hanger.svg": "/fashiony_the_e-commerce_website/static/media/hanger.c25a2caf76ddad6ec884426e5c277429.svg",
+    "main.245c0625.css.map": "/fashiony_the_e-commerce_website/static/css/main.245c0625.css.map",
+    "main.290e48f8.js.map": "/fashiony_the_e-commerce_website/static/js/main.290e48f8.js.map",
+    "453.16ae897f.chunk.js.map": "/fashiony_the_e-commerce_website/static/js/453.16ae897f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.245c0625.css",
+    "static/js/main.290e48f8.js"
+  ]
+}
