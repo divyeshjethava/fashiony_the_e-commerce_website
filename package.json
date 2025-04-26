@@ -2,6 +2,9 @@
   "name": "fashiony",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://divyeshjethava.github.io/fashiony_the_e-commerce_website",
+  "description": "Fashiony - A stylish e-commerce website built with React",
+  "author": "Divyesh Jethava",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@testing-library/jest-dom": "^5.17.0",
@@ -19,11 +22,17 @@
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI='' react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
