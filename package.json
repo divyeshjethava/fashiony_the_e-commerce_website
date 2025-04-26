@@ -2,7 +2,7 @@
   "name": "fashiony",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://divyeshjethava.github.io/fashiony_the_e-commerce_website",
+ "homepage": "https://divyeshjethava.github.io/fashiony_the_e-commerce_website",
   "description": "Fashiony - A stylish e-commerce website built with React",
   "author": "Divyesh Jethava",
   "dependencies": {
