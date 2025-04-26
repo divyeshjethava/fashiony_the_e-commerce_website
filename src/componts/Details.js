@@ -132,7 +132,7 @@ export default function Details() {
               <option value="XXL">XXL</option>
             </select>
             <div className='schart' onClick={toggleChart}>
-              <img src={ic} />
+              <img src={ic} alt='Error to Load images' />
               <span>Size Chart</span>
 
             </div>
@@ -200,10 +200,10 @@ export default function Details() {
         </div>
         <div className='pay_o_con'>
 
-          <img src={visa} />
-          <img src={mastercard} />
-          <img src={paypal} />
-          <img src={upi} />
+          <img src={visa} alt='' />
+          <img src={mastercard} alt='' />
+          <img src={paypal} alt=''/>
+          <img src={upi} alt='' />
 
         </div>
       </div>

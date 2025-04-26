@@ -2,7 +2,7 @@
 import React, { useEffect,useState } from 'react'
 import RegistrationD from './RegistrationD';
 import axios from 'axios';
-import { useAuth } from '../componts/AuthContext'; 
+
 
 
 export default function LoginDialog({ isOpen, onClose , loginUser }) {
@@ -60,7 +60,7 @@ export default function LoginDialog({ isOpen, onClose , loginUser }) {
                 </div>
                 <span className='forgotPass'>Forgot Password?</span>
                 <button className='LoginBtns1' onClick={loginHandler}>LOGIN</button>
-                <span className='create_ac'>If you don't have an account, <a onClick={OpenDialogHandler1}>Sign Up</a></span>
+                <span className='create_ac'>If you don't have an account, <span onClick={OpenDialogHandler1}>Sign Up</span></span>
 
                 <span className='logwithother'>Login With Other</span>
                 <div className={`otherLogicon ${isOpen ? '' : 'hidden'}`}>

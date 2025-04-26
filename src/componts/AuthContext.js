@@ -41,7 +41,6 @@ export const AuthProvider = ({ children }) => {
     };
     const loginUser = (token) => {
         const currentTime = Date.now(); 
-        const expiryTime = 3 * 24 * 60 * 60 * 1000; 
         localStorage.setItem('userToken', token);
         localStorage.setItem('loginTimestamp', currentTime);
 

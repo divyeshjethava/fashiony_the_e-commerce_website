@@ -58,7 +58,7 @@ export default function ExOffer() {
             <div className='ExOff_Container'>
 
                 <div className='img_con'>
-                    <img src={exOff} />
+                    <img src={exOff} alt=''/>
                 </div>
                 <div className='Ex_con'>
                     <h1>Exclusive Offers</h1>

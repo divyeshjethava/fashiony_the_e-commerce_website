@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState,useMemo } from "react";
 import { useNavigate } from 'react-router-dom';
 import p1 from '../images/slid1.jpg';
 import p2 from '../images/slid2.jpg';
@@ -17,7 +17,7 @@ export default function Hero() {
   const navigate = useNavigate();
    const { ref, inView } = useInView({ threshold: 0.5, });
   const [iconStyles, setIconStyles] = useState([]);
-  const icons = [
+  const icons = useMemo(() => [
     "fa-shopping-bag",
     "fa-shopping-cart",
     "fa-tag",
@@ -31,8 +31,7 @@ export default function Hero() {
     "fa-gift",
     "fa-search",
     "fa-star fa-rotate-90"
-    
-  ];
+  ], []);
   const settings = {
     dots: true,        
     infinite: true,   
@@ -70,7 +69,7 @@ export default function Hero() {
     };
 
     generateStyles();
-  }, []);
+  },  [icons]); 
   return (
     <div className='heroMain'>
       <div className='frame_icon'>
@@ -121,32 +120,32 @@ export default function Hero() {
        className='frame_img'>
       <Slider {...settings}>
         <div className="slide">
-          <img src={p1}/>
+          <img src={p1} alt = ""/>
           <span className="frame_span1">Up to 20% Off</span>
           <span className="frame_title">Fashiony</span>
         </div>
         <div className="slide">
-          <img src={p2}/>
+          <img src={p2} alt = ""/>
           <span className="frame_span1">Up to 40% Off</span>
           <span className="frame_title">Fashiony</span>
         </div>
         <div className="slide">
-          <img src={p3}/>
+          <img src={p3} alt = ""/>
           <span className="frame_span1">Up to 50% Off</span>
           <span className="frame_title" style={{color:"#224F34"}}>Fashiony</span>
         </div>
         <div className="slide">
-          <img src={p4}/>
+          <img src={p4} alt = ""/>
           <span className="frame_span1">Up to 18% Off</span>
           <span className="frame_title">Fashiony</span>
         </div>
         <div className="slide">
-          <img src={p5}/>
+          <img src={p5} alt = ""/>
           <span className="frame_span2">Up to 35% Off</span>
           <span className="frame_title" style={{color:"#224F34"}}>Fashiony</span>
         </div>
         <div className="slide">
-          <img src={p6}/>
+          <img src={p6} alt = ""/>
           <span className="frame_span2">Up to 10% Off</span>
           <span className="frame_title" style={{color:"#224F34"}}>Fashiony</span>
         

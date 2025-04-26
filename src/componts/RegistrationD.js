@@ -67,7 +67,7 @@ if (!isOpen) return null;
         </div>
         <button className="LoginBtns1" onClick={hanlderRegisteration}>Register</button>
         <span className="create_ac">
-          Already have an account? <a onClick={onClose}>Login</a>
+          Already have an account? <span onClick={onClose}>Login</span>
         </span>
       </div>
     </div>
